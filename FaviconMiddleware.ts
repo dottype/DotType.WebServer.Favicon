@@ -1,11 +1,11 @@
 import { IMiddleware } from "dottype.webserver/Interfaces/IMiddleware";
-import { IHttpContext } from "dottype.webserver/Interfaces/IHttpContext";
+import { IHttpContext } from "dottype.hosting/Interfaces/IHttpContext";
 import { Exception } from "dottype/Exceptions/Exception";
 
 export class FaviconMiddleware implements IMiddleware
 {
     public readonly Name: string = "Favicon parser middleware";
-    public readonly Version: string = "0.0.1-beta";
+    public readonly Version: string = "0.0.2-beta";
     public Order: number = -1000;
     
     public async OnRequestAsync(httpContext: IHttpContext, caller: IMiddleware): Promise<void>
