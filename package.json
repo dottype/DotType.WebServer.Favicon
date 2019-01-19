@@ -10,7 +10,6 @@
     },
     "dependencies": {
         "@types/node": "^10.12.18",
-        "dottype": "0.0.12",
         "dottype.webserver": "0.0.3"
     }
 }
