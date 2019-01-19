@@ -1,0 +1,16 @@
+{
+    "name": "dottype.webserver.favicon",
+    "version": "0.0.1",
+    "description": "Favicon middleware for DotType.WebServer",
+    "author": "DotType",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dottype/DotType.WebServer.Favicon.git"
+    },
+    "dependencies": {
+        "@types/node": "^10.12.18",
+        "dottype": "0.0.12",
+        "dottype.webserver": "0.0.3"
+    }
+}

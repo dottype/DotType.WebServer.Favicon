@@ -1,6 +1,6 @@
-import { IMiddleware } from "../../DotType.WebServer/Interfaces/IMiddleware";
-import { IHttpContext } from "../../DotType.WebServer/Interfaces/IHttpContext";
-import { Exception } from "../../Packages/DotType/Exceptions/Exception";
+import { IMiddleware } from "dottype.webserver/Interfaces/IMiddleware";
+import { IHttpContext } from "dottype.webserver/Interfaces/IHttpContext";
+import { Exception } from "dottype/Exceptions/Exception";
 
 export class FaviconMiddleware implements IMiddleware
 {
